@@ -1,0 +1,423 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, 
+    Noto Sans, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji" ;
+}
+
+#palestine {
+    height: 30px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#palestine img {
+    width: 40px;
+    transform: translate(-1.5em);
+}
+
+#palestine p {
+    font-size: 14px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    transform: translateY(0.05em);
+}
+
+header nav {
+    display: flex;
+}
+
+header nav img {
+    width: 80px;
+    margin-left: 40px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    width: 80%;
+    margin-top: 28px;
+    gap: 50px;
+    justify-content: center;
+    font-weight: bold;
+}
+.linkstyle{
+    text-decoration: none;
+    color: black;
+}
+#talkid{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    margin-top: 28px;
+    width: 10%;
+}
+
+.button {
+    background-color: rgb(54, 9, 132);
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    font-size: 18px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 1;
+    border: none;
+}
+
+.image img {
+    width: 500px;
+    margin-right: 80px;
+    float: right;
+}
+.container{
+    margin-bottom: 25rem;
+}
+
+.txtcontainer {
+    text-align: left;
+    transform: translateY(200px);
+    margin-left: 50px;
+    line-height: 1;
+}
+
+.txtcontainer :nth-child(1) {
+    color: rgb(30 58 138);
+    font-size: 3.5rem;
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial,
+        Noto Sans, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji";
+    font-weight: 800;
+}
+
+.txtcontainer :nth-child(2) {
+    color: rgb(8, 71, 241);
+    font-size: 3.5rem;
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial,
+        Noto Sans, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji";
+    font-weight: 800;
+    opacity: 0.8;
+}
+
+.txtcontainer p {
+    margin-top: 30px;
+    max-width: 650px;
+    line-height: 1.5;
+    font-size: 20px;
+    opacity: 0.60;
+}
+
+.txtcontainer :nth-child(4) {
+    margin-top: 70px;
+    opacity: 0.60;
+}
+.h3 h3{
+    opacity: 0.8;
+    text-align: center;
+}
+.h3{
+    margin: 60px;
+}
+.h3 img{
+    margin: auto;
+    width: 170px;
+    padding: 30px;
+}
+.h3 :nth-child(4){
+    height: 75px;
+}
+.h3 :nth-child(5){
+    transform: translateY(30px);
+}
+.palestine{
+    background-color: rgb(19, 18, 18);
+    height: 100px;
+    margin: 20px;
+    border-radius: 10px;
+}
+.palestine p{
+    color: white;
+    font-size: 16px;
+    padding: 20px 30px;
+}
+.palestine div a{
+    color: rgb(250 204 21);
+    font-size: 16px;
+    font-weight: 700;
+    padding: 20px 30px;
+    text-decoration: none;
+}
+.palestine span{
+    position: absolute;
+    right: 50px;
+    transform: translateY(-55px);
+    font-size: 20px;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+}
+.palestine:hover{
+    animation-name: palestine;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+}
+@keyframes palestine {
+    100%{background-color: grey;}
+}
+.text{
+    margin: 50px ;
+    text-align: center;
+}
+.text h2{
+    font-size: 28px;
+    padding-bottom: 20px;
+}
+.text p{
+    font-size: 18px;
+    color: rgb(107 114 128);
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 30px;
+    margin: 60px;
+}
+.items{
+    border-radius: 5%;
+    border: 1px solid rgb(196, 193, 193);
+    width: 400px;
+    height: 300px;
+}
+#web img{
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+#web h1{
+    font-size: 20px;
+    text-align: center;
+}
+#web p{
+    text-align: center;
+    line-height: 1.2em;
+    padding-top: 10px;
+    color: rgb(61, 61, 61);    
+}
+#mobile img{
+    width: 160px;
+    display: block;
+    margin: 0 auto;
+    padding-top: 18px;
+}
+#mobile h1{
+    font-size: 20px;
+    text-align: center;
+    padding-top: 10px;
+}
+#mobile p{
+    text-align: center;
+    line-height: 1.2em;
+    padding-top: 10px;
+    color: rgb(61, 61, 61); 
+    padding: 10px;
+}
+#chatbot img{
+    width: 140px;
+    display: block;
+    margin: 0 auto;
+    padding-top: 18px;
+}
+#chatbot h1{
+    font-size: 20px;
+    text-align: center;
+}
+#chatbot p{
+    text-align: center;
+    line-height: 1.2em;
+    color: rgb(61, 61, 61); 
+    padding: 10px;
+}
+#cloud img{
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+#cloud h1{
+    font-size: 20px;
+    text-align: center;
+}
+#cloud p{
+    text-align: center;
+    line-height: 1.2em;
+    color: rgb(61, 61, 61); 
+    padding: 10px;
+}
+#api img{
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+}
+#api h1{
+    font-size: 20px;
+    text-align: center;
+    padding-top: 10px ;
+}
+#api p{
+    text-align: center;
+    line-height: 1.2em;
+    color: rgb(61, 61, 61); 
+    padding: 6px;
+}
+#writing img{
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+    padding-top: 12px;
+}
+#writing h1{
+    font-size: 20px;
+    text-align: center;
+}
+#writing p{
+    text-align: center;
+    line-height: 1.2em;
+    color: rgb(61, 61, 61); 
+    padding: 6px;
+}
+#team{
+    text-align: center;
+    color: rgb(61, 61, 61);
+}
+#teamp{
+    padding: 17px;
+    color: rgb(61, 61, 61);
+    text-align: center;
+}
+#team span{
+    color: rgb(8, 71, 241);
+}
+.teamgrid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 30px;
+    margin: 60px;
+}
+.members{
+    border-radius: .75rem;
+    border: 1px solid rgb(196, 193, 193);
+    width: 600px;
+    height: 250px;
+}
+.members:hover{
+    background-color: rgb(8, 71, 241);
+    color: rgb(255, 250, 250);
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.15s;
+}
+.members:hover p {
+    color: rgb(197, 197, 197);
+}
+.members img{
+    border: 4px solid grey;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    float: left;
+    margin: 30px;
+    object-fit: cover;
+}
+.members h1{
+    font-weight: 600;
+    font-size: 20px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+.members :nth-child(3){
+    color: rgb(107 114 128);
+    padding-bottom: 40px;
+}
+.members :nth-child(4){
+    color: rgb(82, 82, 82);
+    padding: 20px
+}
+footer{
+    background-color: rgb(31 41 55);
+    height: 500px;
+}
+#grid2{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+#askus img{
+    width: 100px;
+    margin-top: 40px;
+    margin-left: 100px;
+}
+#askus p{
+    color: white;
+    margin-left: 100px;
+    margin-top: 10px;
+    font-size: 16px;
+}
+.quicklinks ul{
+    list-style: none;
+    color: white;
+    line-height: 2em;
+    margin-left: 20px;
+    margin-top: 10px;
+    padding-left: 30px;
+}
+.quicklinks h1{
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 40px;
+    margin-left: 20px;
+    padding-left: 30px;
+}
+.form h1{
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 40px;
+    margin-bottom: 20px;  
+}
+.myinput{
+    display: block;
+    width: 350px;
+    height: 16px;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 15px;
+    outline: none;
+}
+.myinput:focus{
+    outline: 1.5px solid blue;
+}
+#message{
+    padding-bottom: 40px;
+}
+.form button{
+    width: 80px;
+    height: 40px;
+    color: white;
+    background-color: rgb(8, 71, 241);
+    font-weight: 700;
+    font-size: 16px;
+    border-radius: 0.25rem;
+    border: none;
+}
+.copyright{
+    color: white;
+    text-align: center;
+    padding-top: 75px;
+}
